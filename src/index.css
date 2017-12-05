@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+.navbar-custom {
+  background-color: #252525;
+  font-family: "Roboto", sans-serif; }
+  .navbar-custom > a {
+    color: #cdcdcd; }
+    .navbar-custom > a:hover {
+      color: #ffff; }
+
+.navbar-product {
+  justify-content: center; }
+
+.center-align {
+  text-align: center; }
+
+.space-product {
+  margin-top: 3%; }
+
+.margin-nav {
+  margin-bottom: 2em; }
+  .margin-nav > a {
+    color: #28a745; }
+    .margin-nav > a:hover {
+      background-color: #28a745;
+      color: #ffff; }
+
+.first-img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease; }
+
+.container-product:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, 0.3); }
+.container-product:hover .title {
+  top: 90px; }
+.container-product:hover .product-home-button {
+  opacity: 1; }
+
+.title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease; }
+
+.product-home-button {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease; }
+  .product-home-button a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px #28a745;
+    z-index: 1; }
+
+.separator {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #bdc3c7;
+  line-height: 0.1em;
+  margin: 10px 0 20px; }
+  .separator > span {
+    border: 1px black;
+    background: #ffff;
+    padding: 0 10px; }
+
+.navbar-brand {
+  font-family: "Great Vibes", cursive;
+  font-size: 3em;
+  color: #252525; }
+
+.contact {
+  display: inline-block; }
+
+.medsos a {
+  color: #7f8c8d; }
+  .medsos a:hover {
+    color: #bdc3c7; }
+
+.btn-email {
+  background: #ffff;
+  border-color: #28a745;
+  color: #28a745; }
+  .btn-email:hover {
+    background: #28a745;
+    border-color: #28a745;
+    color: #ffff; }
+
+/*# sourceMappingURL=index.css.map */
